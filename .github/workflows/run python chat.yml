@@ -10,9 +10,6 @@ jobs:
   run-python:
     runs-on: ubuntu-latest
     steps:
-      - name: Chekout Code
-        uses: actions/chekout@v3
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
