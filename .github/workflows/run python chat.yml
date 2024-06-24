@@ -11,6 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Python chat
-        run: |
-              python chatuse.py
+        run: python3 chatuse.py
                     
