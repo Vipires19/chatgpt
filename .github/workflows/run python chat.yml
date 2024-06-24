@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Python chat
-        run: python chatuse.py
+        run: python chatgpt/chatuse.py
