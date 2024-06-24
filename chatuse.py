@@ -13,7 +13,7 @@ pasta_mensagens = Path(__file__).parent / 'conversas_salvas'
 pasta_mensagens.mkdir(exist_ok=True)
 cache_desconverte = {}
 
-client = openai.Client(api_key= ${{ vars.API_KEY }})
+client = openai.Client(api_key= ${{ secrets.OPENAI_API_KEY }})
 
 #################################################################################################################################
 # Criando o chat
